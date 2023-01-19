@@ -1,0 +1,42 @@
+@mixin form{
+    background: white;
+    border-radius: 10px;
+    padding: 50px 85px;
+    width: 40%;
+    margin: auto;
+}
+@mixin input{    
+    line-height: 1.8;
+    width: 100%;
+    border: 1px solid #c5c3c3;
+    border-radius: 5px;
+    padding: 17px 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #222;
+    margin-block: 10px;
+}
+@mixin heading{
+    line-height: 1.66;
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    color: #222;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+@mixin sign-up{
+    width: 100%;
+    border-radius: 5px;
+    padding: 17px 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    background-image: linear-gradient(to left, #74ebd5,#9face6);
+}
